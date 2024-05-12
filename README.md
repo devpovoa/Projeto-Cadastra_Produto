@@ -1,6 +1,6 @@
 
 <div align="center">
-<img align="center" alt="Povoa-java" height="250" width="250" src="https://user-images.githubusercontent.com/75958253/180897910-4478b8d8-051b-46ba-b5e8-0a55f0315a0a.svg">
+<img align="center" alt="Povoa-java" height="250" width="250" src="https://github.com/devpovoa/DevPovoa/assets/75958253/447062bb-16b9-4a8d-96ae-882a725e6562"">
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
