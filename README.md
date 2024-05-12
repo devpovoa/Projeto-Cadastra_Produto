@@ -38,7 +38,7 @@ ALTER TABLE IF EXISTS public."PRODUTO"
     OWNER to postgres;
 ```
 ## ⚠️ Warning 
-### ℹ️ Não deixe de trocar as informaçoes de conexão no AppDB.py, caso contrário não vai funcionar.
+### ℹ️ Não deixe de trocar as informações de conexão no AppDB.py, caso contrário não vai funcionar.
 
 ```Python
 self.connection = connectar.connect(
