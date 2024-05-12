@@ -8,18 +8,32 @@
 </div>
 
 # Sumário :bookmark_tabs:
-### Códigos em Java :coffee: 
+### Códigos em Python 🐍
 
-<p>Projeto de um gerenciador de tarefas utilizando Java e MySQL</p>
+<p>Projeto de um gerenciador de cadastro de Produtos usando Python e PostgreSQL</p>
 
-<p>Curso ministrado pela <a href="https://www.capgemini.com/br-pt/" target="_blank">Capgemini</a>.</p>
 
 ### Ferramentas utilizada para desenvolvimento :hammer:
 
 <ul>
     <li>Sistema Operacional Linux - Distro Ubuntu</li>
-    <li>NetBeansIDE</li>
-    <li>Java</li>
-    <li>Gradle</li>
-    <li>MySQL</li>
+    <li>VSCode</li>
+    <li>Python</li>
+    <li>PostgreSQL</li>
 </ul>
+
+### O modelo para a criação da tabela no Banco de Dados Postgres
+```Postgres
+CREATE TABLE IF NOT EXISTS public."PRODUTO"
+(
+    codigo integer NOT NULL,
+    nome text COLLATE pg_catalog."default" NOT NULL,
+    preco real NOT NULL,
+    CONSTRAINT "PRODUTO_pkey" PRIMARY KEY (codigo)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public."PRODUTO"
+    OWNER to postgres;
+```
