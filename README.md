@@ -10,7 +10,7 @@
 # Sumário :bookmark_tabs:
 ### Códigos em Python 🐍
 
-<p>Projeto de um gerenciador de cadastro de Produtos usando Python e PostgreSQL</p>
+<p>Projeto de um gerenciador de cadastro de Produtos usando Python e PostgreSQL.</p>
 
 
 ### Ferramentas utilizada para desenvolvimento :hammer:
@@ -22,7 +22,7 @@
     <li>PostgreSQL</li>
 </ul>
 
-### O modelo para a criação da tabela no Banco de Dados Postgres
+### O modelo para a criação da tabela no Banco de Dados Postgres.
 ```Postgres
 CREATE TABLE IF NOT EXISTS public."PRODUTO"
 (
@@ -36,4 +36,11 @@ TABLESPACE pg_default;
 
 ALTER TABLE IF EXISTS public."PRODUTO"
     OWNER to postgres;
+```
+## ⚠️ Warning 
+### ℹ️ Não deixe de trocar as informaçoes de conexão no AppDB.py, caso contrário não vai funcionar.
+
+```Python
+self.connection = connectar.connect(
+                database="seu_bancoDeDados_BD", host="seu_host_de_preferencia", user="seu_usuário", password="sua_senha", port="sua_porta_configurada")
 ```
